@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <script src="main.js" defer></script>
 </head>
 <body>
@@ -21,60 +24,129 @@
         </div>
       </div>
       <div class="header-bottom">
-        <div class="greeting">Hi there, Mike Shaw (@Mikey)</div>
-        <button type="button">New</button>
-        <button type="button">Upload</button>
-        <button type="button">Share</button>
+        <img src="./img/cowboy.png">
+        <div class="greeting">
+          <h3>Hi there,</h3>
+          <h1>Mike Shaw (@Mikey)</h1></div>
+        <div class="header-buttons">
+          <button type="button">New</button>
+          <button type="button">Upload</button>
+          <button type="button">Share</button>
+        </div>
       </div>
     </header>
     <nav>
-      <div class="logo">Dashboard</div>
+      <div class="logo">
+        <img src="./svg/w-logo.svg">
+        <h1>Dashboard</h1>
+      </div>
       <ul>
-        <li><img src="./svg/home.svg" class="icon"><a href="#">Home</a></li>
-        <li><img src="./svg/profile.svg" class="icon"><a href="#">Profile</a></li>
-        <li><img src="./svg/message.svg" class="icon"><a href="#">Messages</a></li>
-        <li><img src="./svg/history.svg" class="icon"><a href="#">History</a></li>
-        <li><img src="./svg/task.svg" class="icon"><a href="#">Tasks</a></li>
-        <li><img src="./svg/community.svg" class="icon"><a href="#">Communities</a></li>
+        <li><img src="./svg/w-home.svg" class="icon"><a href="#">Home</a></li>
+        <li><img src="./svg/w-profile.svg" class="icon"><a href="#">Profile</a></li>
+        <li><img src="./svg/w-message.svg" class="icon"><a href="#">Messages</a></li>
+        <li><img src="./svg/w-history.svg" class="icon"><a href="#">History</a></li>
+        <li><img src="./svg/w-task.svg" class="icon"><a href="#">Tasks</a></li>
+        <li><img src="./svg/w-community.svg" class="icon"><a href="#">Communities</a></li>
       </ul>
       <ul>
-        <li><img src="./svg/settings.svg" class="icon"><a href="#">Settings</a></li>
-        <li><img src="./svg/support.svg" class="icon"><a href="#">Support</a></li>
-        <li><img src="./svg/privacy.svg" class="icon"><a href="#">Privacy</a></li>
+        <li><img src="./svg/w-settings.svg" class="icon"><a href="#">Settings</a></li>
+        <li><img src="./svg/w-support.svg" class="icon"><a href="#">Support</a></li>
+        <li><img src="./svg/w-privacy.svg" class="icon"><a href="#">Privacy</a></li>
       </ul>
     </nav>
     <main>
       <h1>Your Projects</h1>
       <div class="cards">
-        <div class="card"><h2>Super Cool Project</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla sequi culpa cum nostrum ipsum.</div>
-        <div class="card"><h2>Less Cool Project</h2>Dolores, expedita, eos veniam explicabo, voluptatum alias labore eaque ipsam iure voluptate voluptates. Ab explicabo doloremque eaque facere at optio vitae iure quo exercitationem.</div>
-        <div class="card"><h2>Impossible App</h2>Est, corrupti veritatis culpa odit libero dolorum repellendus optio nisi eligendi officiis obcaecati consectetur eveniet porro.</div>
-        <div class="card"><h2>Easy Peasy App</h2>Laboriosam eligendi earum placeat aspernatur eveniet fuga laudantium tenetur reprehenderit illum nihil!</div>
-        <div class="card"><h2>Ad Blocker</h2>Vel repellendus deleniti ut a nisi minima. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam?</div>
-        <div class="card"><h2>Money Maker</h2>Commodi eligendi asperiores deserunt dolores sit assumenda quis necessitatibus labore exercitationem repellat voluptas dolorum, consequuntur cumque obcaecati, quos maiores et omnis voluptatibus autem. Non fuga aspernatur consequatur?</div>
+        <div class="card">
+          <h2>Super Cool Project</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla sequi culpa cum nostrum ipsum.
+          <div class="card-icons">
+            <img src="./svg/star.svg" class="icon">
+            <img src="./svg/view.svg" class="icon">
+            <img src="./svg/share.svg" class="icon">
+          </div>
+        </div>
+        <div class="card">
+          <h2>Less Cool Project</h2>
+          Dolores, expedita, eos veniam explicabo, voluptatum alias labore eaque ipsam iure voluptate voluptates. Ab explicabo doloremque eaque facere.
+          <div class="card-icons">
+            <img src="./svg/star.svg" class="icon">
+            <img src="./svg/view.svg" class="icon">
+            <img src="./svg/share.svg" class="icon">
+          </div>
+        </div>
+        <div class="card">
+          <h2>Impossible App</h2>
+          Est, corrupti veritatis culpa odit libero dolorum repellendus optio nisi eligendi officiis obcaecati consectetur eveniet porro.
+          <div class="card-icons">
+            <img src="./svg/star.svg" class="icon">
+            <img src="./svg/view.svg" class="icon">
+            <img src="./svg/share.svg" class="icon">
+          </div>
+        </div>
+        <div class="card">
+          <h2>Easy Peasy App</h2>
+          Laboriosam eligendi earum placeat aspernatur eveniet fuga laudantium tenetur reprehenderit illum nihil!
+          <div class="card-icons">
+            <img src="./svg/star.svg" class="icon">
+            <img src="./svg/view.svg" class="icon">
+            <img src="./svg/share.svg" class="icon">
+          </div>
+        </div>
+        <div class="card">
+          <h2>Ad Blocker</h2>
+          Vel repellendus deleniti ut a nisi minima. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam?
+          <div class="card-icons">
+            <img src="./svg/star.svg" class="icon">
+            <img src="./svg/view.svg" class="icon">
+            <img src="./svg/share.svg" class="icon">
+          </div>
+        </div>
+        <div class="card">
+          <h2>Money Maker</h2>
+          Commodi eligendi asperiores deserunt dolores sit assumenda quis necessitatibus labore exercitationem repellat voluptas dolorum.
+          <div class="card-icons">
+            <img src="./svg/star.svg" class="icon">
+            <img src="./svg/view.svg" class="icon">
+            <img src="./svg/share.svg" class="icon">
+          </div>
+        </div>
       </div>
     </main>
     <aside>
       <h1>Announcements</h1>
-      <div>
-        <h3>Site Maintenance</h3>
-        Ab quisquam praesentium nihil tenetur assumenda officiis. Ullam tempora consequuntur debitis repellendus quis iure!
-      </div>
-      <div>
-        <h3>Community Share Day</h3>
-        Fuga aut rerum hic beatae suscipit enim deleniti, recusandae necessitatibus, asperiores nam repudiandae voluptas odit consequatur?
-      </div>
-      <div>
-        <h3>Updated Privacy Policy</h3>
-        Delectus possimus doloribus nostrum, atque nobis alias suscipit quos repellendus placeat mollitia nulla, molestiae quasi?
+      <div class="announcements">
+        <div>
+          <h3>Site Maintenance</h3>
+          Ab quisquam praesentium nihil tenetur assumenda officiis. Ullam tempora consequuntur debitis...
+        </div>
+        <hr>
+        <div>
+          <h3>Community Share Day</h3>
+          Fuga aut rerum hic beatae suscipit enim deleniti, recusandae necessitatibus, asperiores...
+        </div>
+        <hr>
+        <div>
+          <h3>Updated Privacy Policy</h3>
+          Delectus possimus doloribus nostrum, atque nobis alias suscipit quos repellendus placeat mollitia...
+        </div>
       </div>
       <h1>Trending</h1>
-      <div>Leonardo</div>
-      <div>Raphael</div>
-      <div>Mikey</div>
-      <div>Donatello</div>
+      <div class="trending">
+        <div>
+          <img src='img/porter.png' class="avatar">Leonardo
+        </div>
+        <div>
+          <img src="img/waiter.png" class="avatar">Raphael
+        </div>
+        <div>
+          <img src="img/cowboy.png" class="avatar">Mikey
+        </div>
+        <div>
+          <img src="img/woman.png" class="avatar">Donatello
+        </div>
+      </div>
     </aside>
   </div>
-  
 </body>
 </html>
